@@ -17,6 +17,13 @@ alias f='open -a Finder ./'
 alias jn='jupyter notebook'
 alias path='echo -e ${PATH//:/\\n}'
 
+# Git aliases.
+alias gs='git status'
+alias gc='git commit'
+alias gp='git pull --rebase'
+alias gcam='git commit -am'
+alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+
 #directories
 alias pgr='cd /Users/julianbeck/Documents/Programming'
 alias work='cd "/Users/julianbeck/Google Drive/Dokumente/College/"'
@@ -60,4 +67,3 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias keys='for key in ~/.ssh/id_*; do ssh-keygen -l -f "${key}"; done | uniq'
-alias wakegeass='wakeonlan B8:CA:3A:7B:A3:9B'
