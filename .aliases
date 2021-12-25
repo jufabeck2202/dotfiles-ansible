@@ -25,9 +25,7 @@ alias gcam='git commit -am'
 alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 
 #directories
-alias pgr='cd /Users/julianbeck/Documents/Programming'
-alias work='cd "/Users/julianbeck/Google Drive/Dokumente/College/"'
-alias sdk='cd /Users/julianbeck/Documents/Programming/android-sdk/'
+alias pgr='cd /Users/julianbeck/Development'
 
 #copys ip adress to clipboard and removes new line
 alias ipc='ipconfig getifaddr en0 | tr -d '\n' | pbcopy' 
