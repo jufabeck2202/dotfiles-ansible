@@ -207,3 +207,5 @@ export COMPOSER_MEMORY_LIMIT=-1
 source <(kubectl completion zsh)
 alias kk=kubectl
 compdef __start_kubectl kk
+export GOPATH=/Users/$USER/go
+export PATH=$GOPATH/bin:$PATH

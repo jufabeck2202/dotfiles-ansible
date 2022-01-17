@@ -50,3 +50,5 @@ map <F2> :NERDTreeToggle<CR>
 " inoremap {<CR>  {<CR>}<Esc>O
 " inoremap {{     {
 " inoremap {}     {}
+
+
